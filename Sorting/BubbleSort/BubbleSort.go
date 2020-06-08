@@ -19,7 +19,7 @@ func main() {
 * Space complexity = O(1) as we need only one temp variable
 * Stable sorting = Yes
 *
-*/
+ */
 func BubbleSort(arr []int, comp func(int, int) bool) {
 	size := len(arr)
 
@@ -41,7 +41,7 @@ func BubbleSort(arr []int, comp func(int, int) bool) {
 * Stable sorting = Yes
 * Adaptive when array is nearly sorted = O(n)
 *
-*/
+ */
 func BubbleSortImproved(arr []int, more func(int, int) bool) {
 	size := len(arr)
 	sorted := true
