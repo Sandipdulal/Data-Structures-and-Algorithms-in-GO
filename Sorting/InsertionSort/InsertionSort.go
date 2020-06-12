@@ -16,7 +16,7 @@ func main() {
 * Space complexity = O(1) as we need only one temp variable
 * Stable sorting = Yes
 *
-*/
+ */
 func InsertionSort(arr []int, comp func(int, int) bool) {
 	size := len(arr)
 	var i, j, temp int
