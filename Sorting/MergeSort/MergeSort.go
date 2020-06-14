@@ -10,7 +10,6 @@ func main() {
 	fmt.Println(data)
 }
 
-
 /*
 *
 * Worst case performance = O(nlogn)
